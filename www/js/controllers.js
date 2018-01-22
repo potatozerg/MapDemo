@@ -26,6 +26,7 @@ app.controller('mainCtrl',function($scope){
 	}
 	$scope.startOver = () => {
 		$scope.markers = [];
+		$scope.waypts = [];
 		$scope.created = false;
 		let summaryPanel = document.getElementById('directions-panel');
 		summaryPanel.innerHTML = '';
